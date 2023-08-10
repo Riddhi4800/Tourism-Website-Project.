@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.logo{
+    color: whitesmoke;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    animation: animate 16s ease-in-out infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url(uganda.jpg);
+    }
+    25%{
+        background-image: url(victoria.jpg);
+    }
+    50%{
+        background-image: url(image.jpg);
+    }
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.header-content p{
+    font-family: Roboto;
+}
+.Home-content p{
+    font-family: Roboto;
+    font-size: 100%;
+    text-align: center;
+    
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: orange;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: orange;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+.navbar a{
+    
+    transition: .3s;
+    display: inline-block;
+    font-size: 20px;
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 30px;  
+    position: relative;
+}
+.navbar a:hover{
+
+    color: oldlace;
+    box-shadow: 2px 2px 5px orange;
+}
+.section{
+    width: 80%;
+    margin: 80px auto;
+
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+    padding: 30px;
+}
+.Home{
+    position:relative;
+    width: 100%;
+    justify-content:center;
+    height: 50vh;
+    background-color: transparent;
+    background-position: top;
+    background-size:cover;
+    display: flex;
+    align-content: space-between;
+
+    padding: 30px;
+
+}
+.Home-content h1{
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+
+
+}
+section{
+    width: 80%;
+    margin:80px auto;
+}
+.thum{
+    position: relative;
+    transition: all .3s cubic-bezier(.445,.05,.55,.95);
+    will-change: filter;
+    cursor: pointer;
+
+}
+.thum:hover{
+    filter: brightness(100%) hue-rotate(45deg);
+    transform: scale(1.04);
+
+}
+.thum img{
+    border-radius: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+.btn {
+   
+    display: inline-block;
+    padding: 7px 20px ;
+    background-color: orange;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:40px;
+    margin-top: 20px;
+}
+.btn:hover{
+     background-color:;
+
+    transform: scale(1.06);
+}
+
+
+
+
+
